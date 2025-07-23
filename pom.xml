@@ -28,14 +28,14 @@
                 <artifactId>spotless-maven-plugin</artifactId>
                 <version>${spotless-maven-plugin.version}</version>
                 <configuration>
-                    <java>
-                        <importOrder />
-                        <removeUnusedImports />
-                        <palantirJavaFormat>
-                            <version>2.35.0</version>
-                        </palantirJavaFormat>
-                        <formatAnnotations />
-                    </java>
+<!--                    <java>-->
+<!--                        <importOrder />-->
+<!--                        <removeUnusedImports />-->
+<!--                        <palantirJavaFormat>-->
+<!--                            <version>2.35.0</version>-->
+<!--                        </palantirJavaFormat>-->
+<!--                        <formatAnnotations />-->
+<!--                    </java>-->
                 </configuration>
                 <executions>
                     <execution>

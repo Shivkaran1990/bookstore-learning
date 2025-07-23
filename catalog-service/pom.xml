@@ -143,14 +143,14 @@
 				<artifactId>spotless-maven-plugin</artifactId>
 				<version>2.43.0</version>
 				<configuration>
-					<java>
-						<importOrder/>
-						<removeUnusedImports/>
-				        <googleJavaFormat>
-				          <version>1.17.0</version>
-				        </googleJavaFormat>
-						<formatAnnotations/>
-					</java>
+<!--					<java>-->
+<!--						<importOrder/>-->
+<!--						<removeUnusedImports/>-->
+<!--				        <googleJavaFormat>-->
+<!--				          <version>1.17.0</version>-->
+<!--				        </googleJavaFormat>-->
+<!--						<formatAnnotations/>-->
+<!--					</java>-->
 				</configuration>
 				<executions>
 					<execution>
