@@ -25,6 +25,7 @@ tasks:
   build:
     cmds:
       - "{{.MVNW}} -pl catalog-service spring-boot:build-image -DskipTests"
+      - "{{.MVNW}} -pl order-service spring-boot:build-image -DskipTests"
 
   start_infra:
     cmds:
@@ -38,7 +39,7 @@ tasks:
   restart_infra:
     cmds:
       - task: stop_infra
-      - task: sleep
+#      - task: sleep
       - task: start_infra
       
   start:
@@ -54,5 +55,5 @@ tasks:
   restart:
     cmds:
       - task: stop
-      - task: sleep
+#      - task: sleep
       - task: start
