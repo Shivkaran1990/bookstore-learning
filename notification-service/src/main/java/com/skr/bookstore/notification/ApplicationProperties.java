@@ -1,12 +1,12 @@
-package com.skr.bookstore.orderservice;
+package com.skr.bookstore.notification;
+
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "orders")
+@ConfigurationProperties(prefix = "notifications")
 public record ApplicationProperties(
-        String catalogServiceUrl,
+		String supportEmail,
         String orderEventsExchange,
         String newOrdersQueue,
         String deliveredOrdersQueue,
         String cancelledOrdersQueue,
         String errorOrdersQueue) {}
-
